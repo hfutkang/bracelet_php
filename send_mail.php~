@@ -1,0 +1,11 @@
+<?php
+	include("mail.php");
+	send_mail("hky@sctek.cn", "test", "hello world");
+//	$smtp = new Smtp("smtp.qq.com", 25, 2);
+//	$smtp->auth('493590967', 'txqq2014.');
+//	$smtp->from('493590967@qq.com');
+//	$smtp->to('hfutkang@aliyun.com');
+//	$smtp->subject("test1");
+//	$smtp->body("hello world");
+//	$smtp->send();
+?>
